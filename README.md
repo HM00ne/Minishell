@@ -4,8 +4,6 @@ A small Unix shell written in C, plus its own graphical terminal window for Wind
 
 The shell reads a command, splits it into words, and runs programs with `fork`, `execvp` and `waitpid`, the same system calls that bash uses. It's a compact project for learning how processes, pipes, file descriptors and signals work.
 
-![Minishell running in its terminal window](docs/screenshot.png)
-
 ## Features
 
 **Shell (`Minishell.c`)**
